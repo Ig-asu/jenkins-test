@@ -1,0 +1,10 @@
+﻿.env
+build/
+allure-report/
+tests/unit/РўР°Р±Р»РёС†Р°РџСЂРѕРІРµСЂРєРё.txt
+ConfigDumpInfo.xml
+dumplist.txt
+build
+out
+.scannerwork
+src\cf\Ext\ParentConfigurations\*.cf
