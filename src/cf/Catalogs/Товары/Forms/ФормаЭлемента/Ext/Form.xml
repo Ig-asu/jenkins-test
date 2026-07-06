@@ -102,6 +102,12 @@
 			<ContextMenu name="ШтрихКодКонтекстноеМеню" id="18"/>
 			<ExtendedTooltip name="ШтрихКодExtendedTooltip" id="33"/>
 		</InputField>
+		<InputField name="MDM_код" id="69">
+			<DataPath>Объект.MDM_код</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="MDM_кодКонтекстноеМеню" id="70"/>
+			<ExtendedTooltip name="MDM_кодРасширеннаяПодсказка" id="71"/>
+		</InputField>
 		<Pages name="Страницы" id="21">
 			<Title>
 				<v8:item>
