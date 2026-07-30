@@ -11,6 +11,6 @@
   },
   "vanessa": {
     "--vanessasettings": "./tools/VAParams.json",
-    "--pathvanessa": "C:/tools/vanessa-automation-single.epf"
+    "--pathvanessa": "E:/Workspace/otus-jenkins_agent/tools/vanessa-automation-single.epf"
   }
 }
