@@ -1,7 +1,7 @@
 {
   "globals": {
     "storage-user": "DeployGit",
-    "storage-pwd": "",
+    "storage-pwd": "1235",
     "git-path": "git",
     "domain-email": "otus.ru",
     "lic-try-count": 5,
