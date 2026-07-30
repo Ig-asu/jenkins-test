@@ -1,6 +1,6 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Kyrales/jenkins-lib/devkyr/resources/schema.json",
-  "v8version": "8.3.25.1546",
+  "$schema": "https://raw.githubusercontent.com/Kyrales/jenkins-lib/otus/resources/schema.json",
+  "v8version": "8.3.27.1786",
   "edtVersion": "",
   "srcDir": "src/cf",
   "sourceFormat": "designer",
@@ -13,13 +13,13 @@
   },
   "stages": {
     "initSteps": true,
-    "sonarqube": true,
+    "sonarqube": false,
     "bdd": true,
     "syntaxCheck": true,
     "edtValidate": false,
     "smoke": false,
     "yaxunit": true,
-    "email": true,
+    "email": false,
     "telegram": false
   },
   "timeout": {
@@ -43,7 +43,7 @@
     "initMethod": "fromStorage",
     "runMigration": true,
     "additionalInitializationSteps": [],
-    "templateDBPath": "e:/1C/build/Demo83_otus/1Cv8.1CD",
+    "templateDBPath": "D:\\data_1c\\1c_V8_Bases\\Демонстрационная_конфигурация",
     "vrunnerSettings": "./tools/vrunner.json",
     "extensions": [
       {
