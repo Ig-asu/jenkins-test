@@ -60,11 +60,11 @@
     "vrunnerSteps": [
       "vanessa --settings ./tools/vrunner.json"
     ],
-   "coverage": true,
-    "dbgsPort": 1550 
+    "coverage": false,
+    "dbgsPort": 1550
   },
   "sonarqube": {
-    "sonarQubeInstallation": "",
+    "sonarQubeInstallation": "SonarQube",
     "useSonarScannerFromPath": true,
     "sonarScannerToolName": "sonar-scanner",
     "infoBaseUpdateModuleName" : "",
@@ -93,8 +93,8 @@
     "publishToJUnitReport": true
   },
   "coverage": {
-    "dbgsPath": "",
-    "coverage41CPath": "E:\\Workspace\\otus-jenkins_test\\tools\\Coverage\\bin\\Coverage41C.bat"
+    "dbgsPath": "C:/Program Files/1cv8/8.3.27.1786/bin/dbgs.exe",
+    "coverage41CPath": "E:/Workspace/otus-jenkins_test/tools/Coverage/bin/Coverage41C.bat"
   },
   "yaxunit": {
     "vrunnerSettings": "./tools/vrunner.json",
