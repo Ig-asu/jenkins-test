@@ -13,7 +13,7 @@
   },
   "stages": {
     "initSteps": true,
-    "sonarqube": false,
+    "sonarqube": true,
     "bdd": true,
     "syntaxCheck": true,
     "edtValidate": false,
@@ -59,7 +59,9 @@
   "bdd": {
     "vrunnerSteps": [
       "vanessa --settings ./tools/vrunner.json"
-    ]
+    ],
+   "coverage": true,
+    "dbgsPort": 1550 
   },
   "sonarqube": {
     "sonarQubeInstallation": "",
@@ -92,15 +94,15 @@
   },
   "coverage": {
     "dbgsPath": "",
-    "coverage41CPath": "c:/tools/Coverage/bin/Coverage41C.bat"
+    "coverage41CPath": "E:\\Workspace\\otus-jenkins_test\\tools\\Coverage\\bin\\Coverage41C.bat"
   },
   "yaxunit": {
     "vrunnerSettings": "./tools/vrunner.json",
     "configPath": "./tools/yaxunit_allure.json",
     "publishToAllureReport": true,
     "publishToJUnitReport": false,
-    "coverage": false,
-    "dbgsPort": 1550
+    "coverage": true,
+    "dbgsPort": 1551
   },
   "resultsTransform": {
     "transformer": "stebi",
